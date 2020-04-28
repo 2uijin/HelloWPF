@@ -7,7 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="button" Content="오늘 점심 뭐먹 지" HorizontalAlignment="Left" Margin="200,126,0,0" VerticalAlignment="Top" Width="400" Height="200" RenderTransformOrigin="0.495,0.505"/>
+        <Button x:Name="button" Content="오늘 점심 뭐 먹지" HorizontalAlignment="Left" Margin="200,126,0,0" VerticalAlignment="Top" Width="400" Height="200" RenderTransformOrigin="0.495,0.505" Click="button_Click" BorderBrush="#FFC5F329" Foreground="White" FontFamily="휴먼옛체" FontSize="36">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFF2E2E" Offset="0"/>
+                    <GradientStop Color="#FF4D58C9" Offset="0.764"/>
+                    <GradientStop Color="#FFEEE418" Offset="0.369"/>
+                    <GradientStop Color="#FFFFA200" Offset="0.173"/>
+                    <GradientStop Color="#FF16EE51" Offset="0.539"/>
+                    <GradientStop Color="#FF6515C5" Offset="0.925"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>

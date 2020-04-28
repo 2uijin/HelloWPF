@@ -24,5 +24,12 @@ namespace HelloWPF
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("라면끓여 먹을거야 하지만 라면 " +
+                "먹으면 엄마가 싫어하지" ,"내가 이마트에서 진진짜라를 샀지",
+                MessageBoxButton.YesNo , MessageBoxImage.Question);
+        }
     }
 }
